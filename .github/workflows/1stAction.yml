@@ -1,0 +1,10 @@
+name: another workflow
+on: workflow_dispatch
+jobs:
+  new-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: print info
+        run: echo "Great Info"
+      - name: print exit
+        run: echo "All Done"
